@@ -1,0 +1,19 @@
+{
+
+  "author":"Ryan Cloke",
+  "name":"lendesk-challenge",
+  "version":"1.0.0",
+  "private":true,
+  "description":"Using Node.js as your framework and Redis for data storage, we need an authentication API ",
+  "scripts":{
+      "start":"node server.js",
+      "test":"echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies":{
+      "bcrypt":"^5.1.1",
+      "dotenv":"^16.3.1",
+      "express":"^4.18.2",
+      "redis":"^4.6.8"
+  }
+
+}
