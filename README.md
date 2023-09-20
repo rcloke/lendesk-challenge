@@ -9,6 +9,9 @@
 - Passwords stored as salted hashes
 - Use HTTPS in production
 
+## Session
+- The challenge did not ask to setup a session, but normally I create a JWT token and return it in the auth endpoint
+
 ## Data Storage
 - Username changes handled by renaming Redis key with RENAME command
 - Could be implemented with HSET/hashes for each user, but opted for simple key/value pairs for simplicity
